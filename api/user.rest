@@ -1,0 +1,30 @@
+###to add user
+POST http://localhost:3000/addUser
+Content-Type: application/json
+
+{
+    "name":"saiteja",
+    "password":"saiteja",
+    "email":"saiteja@abc.com"
+}
+
+### user adding post
+POST http://localhost:3000/addPost
+Content-Type: application/json
+
+{
+    "postName":"new post1 by saiteja1",
+    "userId":"5eba4d5c6cb2a53e6c28f818"
+}
+###5eba834f9114ee2e0cecc6b4 sai teja
+###5eba4d5c6cb2a53e6c28f818 sai teja 1
+### user adding comment
+POST http://localhost:3000/addComment
+Content-Type: application/json
+
+{
+    "postId":"5eba850ec867a32358284579",
+    "comment":"comment1",
+    "userId":"5eba4d5c6cb2a53e6c28f818"
+}
+
